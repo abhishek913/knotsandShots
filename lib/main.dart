@@ -60,8 +60,10 @@ class _MyHomePageState extends State<MyHomePage> {
     switch(selectedIndex){
       case 0:
       page = GeneratorPage();
+      break;
       case 1:
       page = FavaoritesPage();
+      break;
       default:
 throw UnimplementedError("This page is not implemneted");
     }
@@ -146,8 +148,6 @@ class GeneratorPage extends StatelessWidget {
     );
   }
 }
-
-
 
 class FavaoritesPage extends StatelessWidget {
 
